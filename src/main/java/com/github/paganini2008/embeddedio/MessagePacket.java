@@ -9,7 +9,7 @@ import com.github.paganini2008.devtools.collection.CollectionUtils;
  * 
  * MessagePacket
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class MessagePacket implements Serializable {

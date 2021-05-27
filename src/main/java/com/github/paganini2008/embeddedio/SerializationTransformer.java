@@ -6,7 +6,7 @@ import java.util.List;
  * 
  * SerializationTransformer
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class SerializationTransformer implements Transformer {

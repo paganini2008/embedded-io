@@ -21,7 +21,7 @@ import com.github.paganini2008.embeddedio.ChannelEvent.EventType;
  * 
  * NioChannel
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class NioChannel implements Channel, Executable {

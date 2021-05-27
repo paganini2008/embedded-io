@@ -4,7 +4,7 @@ package com.github.paganini2008.embeddedio;
  * 
  * Promise
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public interface ChannelPromise<T> {

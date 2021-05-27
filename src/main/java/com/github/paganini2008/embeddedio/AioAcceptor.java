@@ -23,7 +23,7 @@ import com.github.paganini2008.devtools.multithreads.ExecutorUtils;
  * 
  * AioAcceptor
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class AioAcceptor implements IoAcceptor {

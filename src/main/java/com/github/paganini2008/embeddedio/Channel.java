@@ -6,7 +6,7 @@ import java.net.SocketAddress;
  * 
  * Channel
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public interface Channel {

@@ -7,7 +7,7 @@ import java.net.SocketAddress;
  * 
  * IoAcceptor
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public interface IoAcceptor {

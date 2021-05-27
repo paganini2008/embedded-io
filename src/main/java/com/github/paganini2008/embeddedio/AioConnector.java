@@ -17,7 +17,7 @@ import com.github.paganini2008.embeddedio.ChannelEvent.EventType;
  * 
  * AioConnector
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class AioConnector implements IoConnector {

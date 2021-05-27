@@ -19,7 +19,7 @@ import com.github.paganini2008.devtools.multithreads.ThreadUtils;
  * 
  * NioReactor
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public abstract class NioReactor implements Runnable, Executable {

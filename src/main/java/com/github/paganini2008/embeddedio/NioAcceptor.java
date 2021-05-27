@@ -18,7 +18,7 @@ import com.github.paganini2008.devtools.multithreads.AtomicIntegerSequence;
  * 
  * NioAcceptor
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class NioAcceptor extends NioReactor implements IoAcceptor {

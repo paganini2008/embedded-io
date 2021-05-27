@@ -6,7 +6,7 @@ import com.github.paganini2008.devtools.io.SerializationException;
  * 
  * NoopSerialization
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class NoopSerialization implements Serialization {

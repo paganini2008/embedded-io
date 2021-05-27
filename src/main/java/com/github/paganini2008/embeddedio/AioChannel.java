@@ -24,7 +24,7 @@ import com.github.paganini2008.embeddedio.ChannelEvent.EventType;
  * 
  * AioChannel
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public class AioChannel implements Channel, Executable {

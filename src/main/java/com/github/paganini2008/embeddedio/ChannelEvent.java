@@ -6,7 +6,7 @@ import com.github.paganini2008.devtools.event.Event;
  * 
  * ChannelEvent
  * 
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @version 1.0
  */
 public class ChannelEvent extends Event<Object> {

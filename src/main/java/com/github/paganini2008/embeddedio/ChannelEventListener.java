@@ -6,7 +6,7 @@ import com.github.paganini2008.embeddedio.ChannelEvent.EventType;
  * 
  * ChannelEventListener
  *
- * @author Jimmy Hoff
+ * @author Fred Feng
  * @since 1.0
  */
 public interface ChannelEventListener {
