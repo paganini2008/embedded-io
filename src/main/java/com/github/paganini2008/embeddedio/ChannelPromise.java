@@ -20,7 +20,7 @@ package com.github.paganini2008.embeddedio;
  * Promise
  *
  * @author Fred Feng
- * @since 1.0
+ * @since 2.0.1
  */
 public interface ChannelPromise<T> {
 
