@@ -4,11 +4,11 @@
 
 	<groupId>com.github.paganini2008</groupId>
 	<artifactId>embedded-io</artifactId>
-	<version>2.0.3</version>
+	<version>2.0.4</version>
 	<packaging>jar</packaging>
 
 	<name>embedded-io</name>
-	<description>A simple nio framework with JDK8</description>
+	<description>A simple NIO Framework with JDK8</description>
 	<url>https://github.com/paganini2008/embedded-io</url>
 
 	<licenses>
@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>com.github.paganini2008</groupId>
 			<artifactId>devtools-lang</artifactId>
-			<version>2.0.3</version>
+			<version>2.0.4</version>
 		</dependency>
 	</dependencies>
 
