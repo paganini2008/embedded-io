@@ -21,9 +21,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 import com.github.paganini2008.devtools.Assert;
-import com.github.paganini2008.devtools.date.DateUtils;
 import com.github.paganini2008.devtools.multithreads.Clock;
 import com.github.paganini2008.devtools.multithreads.ClockTask;
+import com.github.paganini2008.devtools.time.DateUtils;
 
 /**
  * 
