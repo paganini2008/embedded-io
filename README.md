@@ -8,11 +8,13 @@ A lightweight  NIO framework with JDK8
 ## Install
 
 ```xml
+
 <dependency>
-    <groupId>com.github.paganini2008</groupId>
-	<artifactId>embedded-io</artifactId>
-    <version>2.0.4</version>
+  <groupId>com.github.paganini2008</groupId>
+  <artifactId>embedded-io</artifactId>
+  <version>2.0.4</version>
 </dependency>
+
 ```
 
 ## Quick Start
