@@ -1,5 +1,5 @@
 /**
-* Copyright 2017-2021 Fred Feng (paganini.fy@gmail.com)
+* Copyright 2017-2022 Fred Feng (paganini.fy@gmail.com)
 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -55,10 +55,10 @@ public class TestClient {
 			throw e;
 		}
 		System.in.read();
-		for (int i = 0; i < 100000; i++) {
-			channel.write(new Item("fengy_" + i, toFullString()));
+		for (int i = 0; i < 10000; i++) {
+			channel.write(new Item("test_" + i, toFullString()));
 		}
-		Thread.sleep(60 * 60 * 1000L);
+		Thread.sleep(60 * 1000L);
 		client.close();
 		System.out.println("TestClient.main()");
 	}

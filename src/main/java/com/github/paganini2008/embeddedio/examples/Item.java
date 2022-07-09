@@ -1,5 +1,5 @@
 /**
-* Copyright 2017-2021 Fred Feng (paganini.fy@gmail.com)
+* Copyright 2017-2022 Fred Feng (paganini.fy@gmail.com)
 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,7 +16,6 @@
 package com.github.paganini2008.embeddedio.examples;
 
 import java.io.Serializable;
-import java.nio.ByteBuffer;
 
 public class Item implements Serializable {
 
@@ -52,23 +51,6 @@ public class Item implements Serializable {
 	@Override
 	public String toString() {
 		return "Item [name=" + name + ", value=" + value + "]";
-	}
-
-	public static void main(String[] args) {
-		ByteBuffer buffer = ByteBuffer.allocate(20);
-		buffer.putInt(3);
-		buffer.putDouble(16.2D);
-		System.out.println(buffer);
-		
-		buffer.flip();
-		int i = buffer.getInt();
-		System.out.println(i);
-		System.out.println(buffer);
-		buffer.compact();
-		System.out.println(buffer);
-		buffer.flip();
-		double d = buffer.getDouble();
-		System.out.println(d);
 	}
 
 }
